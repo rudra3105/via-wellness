@@ -24,3 +24,12 @@
     background: #f8f9fa;
     border-radius: 5px;
 }
+
+.tp-leftarrow.tparrows {
+    display: none;
+    visibility: hidden;
+}
+.tp-rightarrow.tparrows {
+    display: none;
+    visibility: hidden;
+}
