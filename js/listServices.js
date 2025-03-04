@@ -5,15 +5,15 @@ const pricingData = [
 	{ img: "images/items/waxing_02.jpg", title: "Half Leg Wax", price: "₹500" },
 	{ img: "images/items/waxing_03.jpg", title: "Full Leg Wax", price: "₹1000" },
 	{
-		img: "images/items/waxing_04jpg",
+		img: "images/items/waxing_04.jpg",
 		title: "B Wax (Lipo Soluble)",
 		price: "₹1500",
 	},
-	{ img: "images/items/waxing_05jpg", title: "B Wax (Bean)", price: "₹1600" },
-	{ img: "images/items/waxing_06jpg", title: "Underarms Wax", price: "₹350" },
-	{ img: "images/items/waxing_07jpg", title: "Tummy Wax", price: "₹1000" },
-	{ img: "images/items/waxing_08jpg", title: "Back Wax", price: "₹1200" },
-	{ img: "images/items/waxing_09jpg", title: "Hips Wax", price: "₹1200" },
+	{ img: "images/items/waxing_05.jpg", title: "B Wax (Bean)", price: "₹1600" },
+	{ img: "images/items/waxing_06.jpg", title: "Underarms Wax", price: "₹350" },
+	{ img: "images/items/waxing_07.jpg", title: "Tummy Wax", price: "₹1000" },
+	{ img: "images/items/waxing_08.jpg", title: "Back Wax", price: "₹1200" },
+	{ img: "images/items/waxing_09.jpg", title: "Hips Wax", price: "₹1200" },
 
 	// Body Care
 	{ img: "images/items/body_care_01.jpg", title: "Body Scrub", price: "₹1800" },
@@ -190,12 +190,14 @@ const pricingData = [
 		title: "Advanced Hair Cut + Wash + Blow Dry",
 		price: "₹800",
 	},
-    // Hair Treatments
+
     {
         img: "images/items/hair_07.jpg",
-        title: "Front Flex",
+        title: "Front Flix",
         price: "₹300",
     },
+    
+    // Hair Treatments
     {
         img: "images/items/hair_08.jpg",
         title: "Root Touchup",
@@ -291,7 +293,8 @@ const pricingData = [
         title: "Hair Do with Accessories",
         price: "₹1200",
     },
-	// Makeup
+	
+    // Makeup
 	{
 		img: "images/items/makeup_01.jpg",
 		title: "Basic Party Makeup",
