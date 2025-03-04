@@ -1,4 +1,4 @@
-.pagination-btn, .mo_btn {
+.pagination-btn, .mo_btn_00 {
     background-color: rgb(255, 111, 97);
     border: none;
     color: #fff;
@@ -7,7 +7,7 @@
     cursor: pointer;
     border-radius: 100%;
 }
-.pagination-btn:hover, .mo_btn:hover {
+.pagination-btn:hover, .mo_btn_00:hover {
     background-color: #f7a392;
     border: none;
     color: #fff;
