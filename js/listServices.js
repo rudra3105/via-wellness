@@ -204,7 +204,7 @@ const pricingData = [
         price: "₹1500",
     },
     {
-        img: "images/items/hair_08.jpg",
+        img: "images/items/hair_09.jpg",
         title: "Global Hair Colour",
         price: "₹2500 onwards",
     },
