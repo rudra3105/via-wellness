@@ -1,0 +1,26 @@
+.pagination-btn, .mo_btn {
+    background-color: rgb(255, 111, 97);
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.pagination-btn:hover, .mo_btn:hover {
+    background-color: #f7a392;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.current-page-indicator {
+    font-size: 16px;
+    color: #ff6f61;
+    padding: 5px 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}

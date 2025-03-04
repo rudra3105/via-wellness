@@ -330,39 +330,31 @@ function loadItems(page) {
 		const div = document.createElement("div");
 		div.className = "col-md-6";
 		div.innerHTML = `
-                    <div class="package_item">
-                        <img src="₹{item.img}" alt="" />
-                        <h5>
-                            <a href="javascript:void(0);">${item.title}</a>
-                            <span class="piborder"></span>
-                            ${item.price}
-                        </h5>
-                    </div>
-                `;
+            <div class="package_item">
+                <img src="${item.img}" alt="" />
+                <h5>
+                    <a href="javascript:void(0);">${item.title}</a>
+                    <span class="piborder"></span>
+                    ${item.price}
+                </h5>
+            </div>
+        `;
 		container.appendChild(div);
 	});
 
-	pricingData.forEach((item) => console.log(`${item.title} ${item.price}`));
 	updatePagination();
 }
 
 function updatePagination() {
 	paginationDiv.innerHTML = "";
-	for (let i = 1; i <= totalPages; i++) {
-		const pageBtn = document.createElement("button");
-		pageBtn.className = "mo_btn";
-		pageBtn.textContent = i;
-		pageBtn.onclick = () => {
-			currentPage = i;
-			loadItems(currentPage);
-		};
-		if (i === currentPage) {
-			pageBtn.style.backgroundColor = "#ff6f61"; // Highlight current page
-			pageBtn.style.color = "white";
-		}
-		paginationDiv.appendChild(pageBtn);
-	}
 
+	// Create a single display element for current page
+	const pageIndicator = document.createElement("span");
+	pageIndicator.className = "current-page-indicator";
+	pageIndicator.textContent = `Page ${currentPage} of ${totalPages}`;
+	paginationDiv.appendChild(pageIndicator);
+
+	// Enable/Disable buttons
 	prevPageBtn.disabled = currentPage === 1;
 	nextPageBtn.disabled = currentPage === totalPages;
 }
